@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
+
+    <title>Home</title>
+    <link rel="stylesheet" href="assets/tether/tether.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css"> -->
+    <!-- <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css"> -->
+    <link rel="stylesheet" href="assets/dropdown/css/style.css">
+    <!-- <link rel="stylesheet" href="assets/socicon/css/styles.css"> -->
+    <link rel="stylesheet" href="assets/theme/css/style.css">
+    <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css">
+    <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+</head>
+
+<body>
+    <section class="menu cid-s48OLK6784" once="menu" id="menu1-h">
+        <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
+            <div class="container">
+                <div class="navbar-brand">
+                    <span class="navbar-logo">
+                        <a href="">
+                            <img src="assets/images/logo.png" alt="Mobirise" style="height: 3.8rem;">
+                        </a>
+                    </span>
+                    <span class="navbar-caption-wrap"><a class="navbar-caption text-black display-7"
+                            href="">Covid-19 Survey</a></span>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true">
+                        <li class="nav-item"><a class="nav-link link text-black display-4" href="">Home</a></li>
+                        <li class="nav-item"><a class="nav-link link text-black display-4" href="">
+                                Take Survey</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </section>
+
+    <section class="header1 cid-s48MCQYojq mbr-fullscreen mbr-parallax-background" id="header1-f">
+
+
+
+        <div class="mbr-overlay" style="opacity: 0.8; background-color: rgb(255, 255, 255);"></div>
+
+        <div class="align-center container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-7">
+                    <h1 class="mbr-section-title mbr-fonts-style mb-3 display-1"><strong>Covid-19 Survey</strong></h1>
+
+                    <p class="mbr-text mbr-fonts-style display-7">Complete this form to report your corona-virus symptoms and status. This form will help us best attend to you, and manage the potential spread of the virus.<br>for keep you 👨‍👩‍👧‍👦 safe.&nbsp;<br></p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content1 cid-s48vrXhP0J" id="content1-d">
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="title col-12 col-md-9">
+                    <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-2"><strong>Take
+                            Survey</strong></h3>
+                    <h4 class="mbr-section-subtitle align-center mbr-fonts-style mb-4 display-7"></h4>
+                    <form action="./getinfo.php" method="POST">
+                        <!-- 2 column grid layout with text inputs for the first and last names -->
+                        <div class="row mb-4">
+                            <div class="col">
+                                <div class="form-outline">
+                                    <label class="form-label" for="form6Example1">First name</label>
+                                    <input type="text" name="fstname" id="form6Example1" class="form-control" required/>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-outline">
+                                    <label class="form-label" for="form6Example2">Last name</label>
+                                    <input type="text" name="lstname" id="form6Example2" class="form-control" required/>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- birth input -->
+                        <div class="form-outline mb-4">
+                            <label class="form-label" for="form6Example6">Date Of Birth</label>
+                            <input type="date" name="dob" id="form6Example6" class="form-control" required/>
+                        </div>
+
+                        <!-- Number input -->
+                        <div class="form-outline mb-4">
+                            <label class="form-label" for="form6Example6">Phone</label>
+                            <input type="number" name="phone" id="form6Example6" class="form-control" required/>
+                        </div>
+
+                        <!-- test input -->
+                        <div class="form-outline mb-4">
+                            <label class="form-label" for="form6Example5">Do You Take Any Covid Test? </label>
+                            <br/>
+                            <input type="radio" name="test" id="form6Example5" class="form" /> Yes
+                            <input type="radio" name="test" id="form6Example5" class="form" /> No
+                        </div>
+                        <!-- Email input -->
+                        <div class="form-outline mb-4">
+                            <label class="form-label" for="form6Example5">Email</label>
+                            <input type="email" name="emailid" id="form6Example5" class="form-control" required/>
+                        </div>
+                        <!-- Text input -->
+                        <div class="form-outline mb-4">
+                            <label class="form-label" for="form6Example4">Address</label>
+                            <input type="text" name="address" id="form6Example4" class="form-control" required/>
+                        </div>
+
+                        <!-- Submit button -->
+                        <button type="submit" class="btn btn-primary btn-block mb-4">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer3 cid-s48P1Icc8J" once="footers" id="footer3-i">
+        <div class="container">
+            <div class="media-container-row align-center mbr-white">
+
+                <div class="row row-copirayt">
+                    <p class="mbr-text mb-0 mbr-fonts-style mbr-white align-center display-7">
+                        © Copyright 2021 Covid Survey. All Rights Reserved.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section style="background-color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; color:#aaa; font-size:12px; padding: 0; align-items: center; display: flex;">
+        <p style="flex: 0 0 auto; margin:0; padding-right:1rem;">
+            <a href="https://mobirise.site/p" style="color:#aaa;"> </a>
+        </p>
+    </section>
+    <script src="assets/web/assets/jquery/jquery.min.js"></script>
+    <script src="assets/popper/popper.min.js"></script>
+    <script src="assets/tether/tether.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/parallax/jarallax.min.js"></script>
+    <script src="assets/dropdown/js/nav-dropdown.js"></script>
+    <script src="assets/dropdown/js/navbar-dropdown.js"></script>
+    <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
+    <script src="assets/theme/js/script.js"></script>
+
+</body>
+
+</html>
